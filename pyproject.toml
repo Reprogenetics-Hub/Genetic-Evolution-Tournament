@@ -7,20 +7,12 @@ license = "Apache-2.0"
 package-mode = false
 readme = "README.md"
 repository = "https://github.com/O957/Genetic-Evolution-Tournament"
-keywords = ["genetics", "tournament", "forecasting", "genetic-engineering", "human-enhancement", "human-judgment", "dna-technology"]
-
-[tool.poetry.dependencies]
-python = "^3.12"
-pre-commit = "^3.7.0"
-
-
-[tool.poetry.group.dev.dependencies]
-matplotlib = "^3.9.2"
-
-[tool.poetry.urls]
-"Repository Issues" = "https://github.com/Genetic-Evolution-Tournament/issues"
-"Author Homepage" = "https://github.com/O957"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+keywords = [
+  "genetics",
+  "tournament",
+  "forecasting",
+  "genetic-engineering",
+  "human-enhancement",
+  "human-judgment",
+  "dna-technology",
+]
