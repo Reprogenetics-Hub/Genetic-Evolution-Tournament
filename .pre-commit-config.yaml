@@ -20,7 +20,7 @@ repos:
 # GENERAL
 ################################################################################
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
     # prevent giant files from being committed.
     -   id: check-added-large-files
@@ -75,7 +75,7 @@ repos:
 # PYTHON
 ################################################################################
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.9.5
+    rev: v0.17.6
     hooks:
     # "currently, the Ruff formatter does not sort imports.
     # In order to both sort imports and format, call
@@ -122,7 +122,7 @@ repos:
 # MAKE FILES
 ################################################################################
 -   repo: https://github.com/mrtazz/checkmake.git
-    rev: 0.2.2
+    rev: v0.3.0
     hooks:
     -   id: checkmake
 ################################################################################
@@ -144,14 +144,14 @@ repos:
 # GITHUB ACTIONS
 ################################################################################
 -   repo: https://github.com/rhysd/actionlint
-    rev: v1.7.7
+    rev: v1.7.12
     hooks:
     -   id: actionlint
 ################################################################################
 # SPELLING
 ################################################################################
 -   repo: https://github.com/crate-ci/typos
-    rev: typos-dict-v0.12.4
+    rev: v1.52.2
     hooks:
     -   id: typos
         args: ["--force-exclude"]
@@ -159,7 +159,7 @@ repos:
 # COMMIT MESSAGES
 ################################################################################
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.2.1
+    rev: v4.20.0
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
